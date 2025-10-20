@@ -1,0 +1,14 @@
+streamlit
+python-dotenv
+langchain_community
+langchain_text_splitters
+langchain_google_genai
+openai
+pypdf
+pathlib
+dotenv
+qdrant-client
+langchain
+langchain_core
+chromadb
+beautifulsoup4
