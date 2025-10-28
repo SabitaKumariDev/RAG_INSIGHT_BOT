@@ -104,10 +104,17 @@ Once it’s running, open the local URL (e.g. http://localhost:8501) in your bro
 💬 How It Works (RAG Pipeline Summary)
 
 Document Ingestion – PDFs/websites are uploaded or crawled.
+
 Chunking – Text is split into smaller segments.
+
 Vectorization – Segments converted into embeddings via Gemini API.
+
 Storage – Embeddings stored in Qdrant vector database.
+
 Retrieval – On each user query, similar chunks are retrieved using cosine similarity.
+
 LLM Response – Retrieved chunks + question passed to Gemini LLM → grounded, accurate answers.
+
 git clone https://github.com/SabitaKumariDev/PDF-Chat-Assistant-with-Gemini.git
+
 cd PDF-Chat-Assistant-with-Gemini
